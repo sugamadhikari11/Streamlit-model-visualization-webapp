@@ -5,7 +5,7 @@ st.set_page_config(page_title="Big Mart Sales Prediction", layout="wide")
 
 # Create a sidebar for navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Welcome", "Prediction"])
+page = st.sidebar.radio("Go to", ["Welcome", "Prediction", "Visualization"])
 
 # Welcome Page
 if page == "Welcome":
@@ -21,3 +21,8 @@ elif page == "Prediction":
     st.title("Sales Prediction")
     st.write("This section will contain the sales prediction functionality.")
     st.write("Currently, the prediction feature is not available as we don't have data.")
+
+elif page =="Visualization":
+    st.title("Sales Visualization")
+    st.write("This section will show sales visualization.")
+    st.write("Currently, the visualization feature is not available as we don't have data.")
