@@ -1,4 +1,9 @@
 import streamlit as st
+import pandas as pd
+from visualization import run_visualization  # Import the visualization function
+
+# Load the dataset
+data = pd.read_csv('Train.csv')  # Adjust the path to your dataset
 
 # Set the title of the app
 st.set_page_config(page_title="Big Mart Sales Prediction", layout="wide")
@@ -22,7 +27,6 @@ elif page == "Prediction":
     st.write("This section will contain the sales prediction functionality.")
     st.write("Currently, the prediction feature is not available as we don't have data.")
 
-elif page =="Visualization":
-    st.title("Sales Visualization")
-    st.write("This section will show sales visualization.")
-    st.write("Currently, the visualization feature is not available as we don't have data.")
+# Visualization Page
+elif page == "Visualization":
+    run_visualization(data)  # Call the visualization function
