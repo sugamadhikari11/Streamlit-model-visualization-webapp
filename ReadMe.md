@@ -34,7 +34,7 @@ To run this app locally, you need to have Python installed on your machine. Foll
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/big-mart-sales-prediction.git
+   git lfs clone https://github.com/yourusername/big-mart-sales-prediction.git
    cd big-mart-sales-prediction
 
 2. **Create a virtual environment (optional but recommended)**:
@@ -57,7 +57,7 @@ Replace app.py with the name of your main Python file if it's different.
 Open your web browser and go to http://localhost:8501 to view the app.
 
 How to Run the App Locally
- -   Ensure you have Python and pip installed.
+ -  Ensure you have Python and pip installed.
  -  Follow the Installation section to set up the environment.
  -  Use the Usage section to run the app and access it locally.
 
@@ -77,12 +77,12 @@ You can deploy this app using various platforms. Here are two popular options:
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or features, please:
-    - Open an issue to discuss your idea.
-    - Fork the repository.
-    - Create a new branch (git checkout -b feature-branch).
-    - Commit your changes (git commit -m 'Add new feature').
-    - Push to the branch (git push origin feature-branch).
-    - Create a pull request.
+- Open an issue to discuss your idea.
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Commit your changes (git commit -m 'Add new feature').
+- Push to the branch (git push origin feature-branch).
+- Create a pull request.
 
 ## License
 This project is licensed under the MIT License.
